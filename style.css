@@ -1,0 +1,99 @@
+body{
+    background-color: #7733ff;
+text-align:center;
+font-family:segoe ui;
+}
+
+.card{
+    background-color: #ffffff;
+    width:700px;
+    border-radius:8px;
+    margin:auto;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.profile{height:150px;
+width:150px;
+border-radius:50%;
+}
+
+p{font-size:20px;}
+
+ul{
+}
+li{ list-style-type:none;
+font-size:22px;
+display:inline;
+margin:20px;
+color:#ffffff;
+}
+
+a{color:#ffffff;}
+
+.fa{margin:5px;}
+
+.project{
+height:180px;
+width:180px;
+background-color:#f2f2f2;
+border:solid 2px;
+margin:10px;
+}
+
+.link{
+    background-color:#7733ff;
+    color:#ffffff;
+    padding:8px;
+    border-radius:5px;
+    font-size:18px;
+    width:80px;
+    margin:4px;
+
+
+}
+
+.projects{
+
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+
+input{height:35px;
+width:300px;
+font-size:18px;
+background-color: #f2f2f2;
+border-radius:5px;
+border:none;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+
+footer{
+    color:#ffffff;
+    background-color:#1d1d1d;
+    padding:20px;
+}
+
+i{color:#7733ff;}
+
+
+@media screen and (max-width:600px){
+
+    .card{width:auto;}
+.projects{display:flex;
+flex-direction:column;
+align-items: center;}
+
+.project{margin:20px;}
+
+
+}
